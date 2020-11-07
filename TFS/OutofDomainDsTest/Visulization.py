@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-inDomainDs = [ 'Cifar100','Cifar100'] #
-outDomainForCifar10Ds = ['SVHN', 'LSUN', 'CIFAR100']
-outDomainForCifar100Ds = ['SVHN', 'LSUN', 'CIFAR10']
+inDomainDs = ['Cifar100'] # 'Cifar100',
+outDomainForCifar10Ds = ['TEXTURE', 'PLACES365'] #'SVHN', 'LSUN', 'CIFAR100', 
+outDomainForCifar100Ds = ['TEXTURE', 'PLACES365'] #'SVHN', 'LSUN', 'CIFAR10', 
 outDomainDs = {'Cifar10': outDomainForCifar10Ds, 'Cifar100': outDomainForCifar100Ds}
 models = ['CNN', 'EDL', 'EDLP']
 print (math.log(10, 2))
